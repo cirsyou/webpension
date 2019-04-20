@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/normalize.min.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- menulist -->
+    <div class="menlist">
+      <div class="head-midbox">
+        <ul class="menu-items" id="pageMenu">
+          <li class="first-item currentmenu">Homepage</li>
+          <li>Pension Data</li>
+          <li>More About Pension</li>
+          <li>Discussion Board</li>
+        </ul>
+        <ul class="menu-items" id="loginMenu">
+          <li>LogIn</li>
+          <li class="last-item">Register</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Text area -->
+    <div class="midcontainer">
+      <div class="topmain">
+        <!-- swiper -->
+        <div id="myCarousel" class="carousel slide">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item">
+              <img src="./images/swiperitem.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="./images/swiperitem.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="./images/swiperitem.jpg" alt="">
+            </div>
+          </div>
+          <!-- Carousel nav -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+      </div>
+      <div class="main-title">Welcome to<br />Pension Funds Information</div>
+      <div class="introlist text-center">
+        <div class="intro-item"><span>Pension Data</span>Add/Edit your pension information. You can see both your and
+          other member’s estimated pension savings at retirement.</div>
+        <div class="intro-item"><span>More About Pension</span>Information about pension funds & Useful link.</div>
+        <div class="intro-item"><span>Discussion Board</span>If you are individual member, you can post your questions
+          and get the answers from pension managers. If you are pension managers, you can see what individual members
+          are thinking here.</div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer" id="footer"></div>
+  </div>
+  <script src="./js/jquery-2.1.4.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/base.js"></script>
+</body>
+
+</html>
