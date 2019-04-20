@@ -1,0 +1,41 @@
+@charset 'utf-8';
+
+/* sign in */
+.loginbox {
+  width: 400px;
+  margin: 100px auto;
+  background-color: #eee;
+  padding: 30px 60px;
+}
+
+.loginbox .login-title {
+  text-align: center;
+  font-size: 30px;
+  color: #f7b52c;
+  line-height: 2;
+  padding-bottom: 30px;
+}
+
+.findpwd {
+  margin-bottom: 30px;
+}
+
+.tosign {
+  text-align: center;
+  font-size: 12px;
+}
+/* sign up */
+.registerbox {
+  width: 400px;
+  margin: 100px auto;
+  background-color: #eee;
+  padding: 30px 60px;
+}
+
+.registerbox .register-title {
+  text-align: center;
+  font-size: 30px;
+  color: #f7b52c;
+  line-height: 2;
+  padding-bottom: 30px;
+}

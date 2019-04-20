@@ -8,6 +8,7 @@
   <title>Pension Introduce</title>
   <link rel="stylesheet" href="./css/normalize.min.css">
   <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/intro.css">
 </head>
 
 <body>
@@ -22,14 +23,130 @@
           <li><a href="./discussion.html">Discussion Board</a></li>
         </ul>
         <ul class="menu-items" id="loginMenu">
-          <li><a href="./login.html">LogIn</a></li>
-          <li class="last-item"><a href="./register.html">Register</a></li>
+          <li><a href="./login.html">Sign in</a></li>
+          <li class="last-item"><a href="./register.html">Sign up</a></li>
         </ul>
       </div>
     </div>
     <!-- Text area -->
-    <div class="midcontainer">
-      正文区域
+    <div class="midcontainer intro-bto">
+      <div class="intro-title">More About Pension</div>
+      <!-- 1. More about ‘Edit Pension Information’ -->
+      <div class="intro-item-title">1. More about 'Edit Pension Information'</div>
+      <div class="intro-detail">
+        <div class="list dte-bto">The results of the last two information are illustrative only by pension manager only;
+          whilst they are intended to provide estimates of the benefits that you might receive, they should not be
+          relied upon for making financial decisions about the future.</div>
+        <div class="list dte-bto">Any estimate provided in this calculator to members or prospective members should
+          therefore be taken to constitute information and not be taken to constitute advice.</div>
+        <div class="font-bold dte-bto">The contributions of this database table</div>
+        <div class="list dte-bto">The pension manager assume that:</div>
+        <div class="list dte-bto">• personal and employer contributions continue to be paid to your selected retirement
+          age</div>
+        <div class="list dte-bto">• contributions will increase in line with the salary growth assumption between now
+          and your selected retirement age</div>
+        <div class="font-bold dte-bto">State Pension Age</div>
+        <div class="list dte-bto">The calculator estimates State Pension Age based on the age entered in Section 1:
+          About you.</div>
+        <div class="list dte-bto">A more accurate estimate of State Pension Age can be obtained using the government's
+          website at: <a href="https://www.gov.uk/calculate-state-pension"
+            target="_blank">https://www.gov.uk/calculate-state-pension</a></div>
+        <div class="list dte-bto"><span class="font-bold">Important: </span>If you were a member of an occupational or
+          personal pension scheme and were “contracted-out” of the state earnings-related pension schemes (SERPS or S2P)
+          prior to 6 April 2016, you may not receive the full new State Pension - a deduction will be made to reflect
+          the pension built up in the occupational or personal pension scheme as a result of the period when you were
+          contracted-out as you will have paid lower National Insurance Contributions during this period.</div>
+        <div class="list dte-bto">For more information on contracting out visit <a href="www.gov.uk/contracted-out"
+            target="_blank">www.gov.uk/contracted-out</a></div>
+      </div>
+      <!-- 2. About Retirement age -->
+      <div class="intro-item-title">2. About Retirement age</div>
+      <div class="intro-detail">
+        <div class="list dte-bto">It is the age that you wish to start to draw your pension savings. This age could be
+          different to your State Pension Age.</div>
+        <div class="list dte-bto">For most people the minimum age that you can access your pension saving is 55. From
+          2028 the government’s intention is that the minimum age will be increased to 57.</div>
+        <div class="list dte-bto">If you have already reached the age that you set as Retirement Age, the calculations
+          assume that you will retire immediately.</div>
+        <div class="list dte-bto">For example, if you are age 65 years and 4 months and you select 65 as your Retirement
+          Age, the calculations assume that you will retire immediately - at age 65 and 4 months. If you select 66 as
+          your Retirement Age the calculations assume that you will retire on your 66th Birthday.</div>
+      </div>
+      <!-- 3.	About Tax -->
+      <div class="intro-item-title">3. About Tax</div>
+      <div class="intro-detail">
+        <div class="list dte-bto">Pension contributions usually receive tax-relief. We've assumed that tax-relief is
+          already included in your contributions.</div>
+        <div class="list dte-bto">When you receive your pension, any amounts above your personal allowance will be taxed
+          as income, in the same way as your salary. All income figures shown in the calculator are amounts before any
+          tax is taken off.</div>
+        <div class="list dte-bto">However, you can normally take up to 25% of your fund at retirement as a tax-free lump
+          sum.</div>
+        <div class="list dte-bto">Where tax bands are shown, the amounts are based on the current (2018/2019) levels.
+          The calculator makes no attempt to predict future tax-levels.</div>
+      </div>
+      <!-- 4.	Annual Allowance -->
+      <div class="intro-item-title">4. Annual Allowance</div>
+      <div class="intro-detail">
+        <div class="list dte-bto">The Annual Allowance limits the tax relief on pension savings made each tax year and
+          is £40,000 for 2018/19. Exceeding the Annual Allowance can result in tax charges being applied, however,
+          unused Annual Allowance from the three previous years can sometimes prevent or reduce such a charge. For high
+          earners, the Annual Allowance is reduced by £1 for every £2 of income between £150,000 and £210,000.</div>
+        <div class="list dte-bto">The calculations make no allowance for the Annual Allowance.</div>
+      </div>
+      <!-- 5.	Lifetime Allowance -->
+      <div class="intro-item-title">5. Lifetime Allowance</div>
+      <div class="intro-detail">
+        <div class="list dte-bto">The Lifetime Allowance is a limit on the amount of pension benefit that can be drawn
+          without triggering an extra tax charge. The Lifetime Allowance generally only applies to people with very high
+          earnings or to people who have built up significant pension savings over their career.</div>
+        <div class="list dte-bto">The current Lifetime Allowance (2018/19) is £1,030,000.</div>
+        <div class="list dte-bto">The calculations make no allowance for the Lifetime Allowance.</div>
+      </div>
+      <!-- 6.	Financial and Demographic assumptions -->
+      <div class="intro-item-title">6. Financial and Demographic assumptions</div>
+      <div class="intro-detail">
+        <div class="list dte-bto font-bold">Annual Investment Return</div>
+        <div class="list dte-bto">This is the assumed return you will get on your pension savings each year, due to
+          growth in the funds you are invested in. The calculator allows for a low, medium or high rate of return.</div>
+        <div class="list dte-bto">The default is a medium rate of return of 5% per year, but you can adjust this using
+          the dropdown box to see its effects on your pension.</div>
+        <div class="list dte-bto">The actual investment return you receive may be higher or lower depending on the
+          performance of the funds you are invested in between now and retirement.</div>
+        <div class="list dte-bto font-bold">Annual Salary Growth</div>
+        <div class="list dte-bto">Gross earnings are assumed to increase each year at the annual salary growth rate. The
+          calculator allows for a range of options from 0% per year to 6% per year.</div>
+        <div class="list dte-bto">The default setting is 2.5% per year, but you can adjust this using the dropdown box
+          to see its effect on your pension.</div>
+        <div class="list dte-bto font-bold">Annual Price Inflation</div>
+        <div class="list dte-bto">This means the increase in the price of goods and services each year. Annual price
+          inflation is assumed to be 2.5% each year.</div>
+        <div class="list dte-bto font-bold">Annual Fund Charges</div>
+        <div class="list dte-bto">The default annual fund charges has been set at 0.5% per annum, but you should adjust
+          this, where necessary, to reflect the actual charges that apply to your chosen funds.</div>
+        <div class="list dte-bto font-bold">Cash</div>
+        <div class="list dte-bto">Under the new rules applying from April 2015, up to 25% of your total fund can be
+          taken as tax-free cash. Any cash payments over this amount will be taxable.</div>
+      </div>
+      <!-- 7. Pension Wise -->
+      <div class="intro-item-title">7. Pension Wise</div>
+      <div class="intro-detail">
+        <div class="list dte-bto">The government offers a free and impartial service about your defined contribution pension options. It is intended to help you if:</div>
+        <div class="list dte-bto">•	You are aged 50 or over, and<br />•	You have a defined contribution pension</div>
+        <div class="list dte-bto">You can find out more about Pension Wise at <a href="https://www.pensionwise.gov.uk" target="_blank">https://www.pensionwise.gov.uk</a></div>
+      </div>
+      <!-- 8. Results stated 'at retirement' -->
+      <div class="intro-item-title">8. Results stated 'at retirement'</div>
+      <div class="intro-detail">
+        <div class="list dte-bto">Where figures are stated at retirement the amount shown is the estimated amount that you are likely receive at retirement or at the age that the income is due to commence (e.g. new State Pension is stated at State Pension Age, drawdown income is stated at the age that drawdown is assumed to commence, DB pension is stated at the age that the DB pension is due to commence).</div>
+      </div>
+      <!-- 9.	Useful link -->
+      <div class="intro-item-title">9. Useful link</div>
+      <div class="intro-detail">
+        <div class="list dte-bto">Government’s pension: <a href="https://www.gov.uk/browse/working/state-pension" target="_blank">https://www.gov.uk/browse/working/state-pension</a></div>
+        <div class="list dte-bto">Pension information & calculation: <a href="https://www.moneyadviceservice.org.uk/en" target="_blank">https://www.moneyadviceservice.org.uk/en</a></div>
+        <div class="list dte-bto">Pension & Retirement calculation: <a href="https://www.tpt.org.uk/defined-contribution-pension-calculator" target="_blank">https://www.tpt.org.uk/defined-contribution-pension-calculator</a></div>
+      </div>
     </div>
     <!-- footer -->
     <div class="footer" id="footer"></div>

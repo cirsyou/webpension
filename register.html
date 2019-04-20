@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Register</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/normalize.min.css">
   <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/layout.css">
 </head>
 
 <body>
@@ -22,14 +24,65 @@
           <li><a href="./discussion.html">Discussion Board</a></li>
         </ul>
         <ul class="menu-items" id="loginMenu">
-          <li><a href="./login.html">LogIn</a></li>
-          <li class="last-item"><a href="javascript:;" class="currentmenu">Register</a></li>
+          <li><a href="./login.html">Sign in</a></li>
+          <li class="last-item"><a href="javascript:;" class="currentmenu">Sign up</a></li>
         </ul>
       </div>
     </div>
     <!-- Text area -->
     <div class="midcontainer">
-      正文区域
+      <div class="registerbox">
+        <div class="register-title">Sign Up</div>
+        <form class="form-horizontal">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">Email Address*</label>
+            <div class="controls">
+              <input type="text" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="inputFirstName">First Name*</label>
+            <div class="controls">
+              <input type="text" id="inputFirstName" placeholder="First Name">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="inputLastName">Last Name*</label>
+            <div class="controls">
+              <input type="text" id="inputLastName" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="inputPassword">Password*</label>
+            <div class="controls">
+              <input type="password" id="inputPassword" placeholder="Password">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="inputPassword">Confirm Your Password*</label>
+            <div class="controls">
+              <input type="password" id="inputPassword" placeholder="Password">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="inputPassword">Select Role*</label>
+            <div class="controls">
+              <label class="checkbox">
+                <input type="radio" name="role"> Individual member of a pension fund
+              </label>
+              <label class="checkbox">
+                <input type="radio" name="role"> Pension manager
+              </label>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <button type="submit" class="btn btn-primary">Create An account</button>
+            </div>
+          </div>
+        </form>
+        <div class="tosign">Already owened an account ? <a href="./login.html">Sign In</a></div>
+      </div>
     </div>
     <!-- footer -->
     <div class="footer" id="footer"></div>

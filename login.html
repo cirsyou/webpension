@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Login</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/normalize.min.css">
   <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/layout.css">
 </head>
 
 <body>
@@ -22,14 +24,37 @@
           <li><a href="./discussion.html">Discussion Board</a></li>
         </ul>
         <ul class="menu-items" id="loginMenu">
-          <li><a href="javascript:;" class="currentmenu">LogIn</a></li>
-          <li class="last-item"><a href="./register.html">Register</a></li>
+          <li><a href="javascript:;" class="currentmenu">Sign in</a></li>
+          <li class="last-item"><a href="./register.html">Sign up</a></li>
         </ul>
       </div>
     </div>
     <!-- Text area -->
     <div class="midcontainer">
-      正文区域
+      <div class="loginbox">
+        <div class="login-title">Sign In</div>
+        <form class="form-horizontal">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">Email Address</label>
+            <div class="controls">
+              <input type="text" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="inputPassword">Password</label>
+            <div class="controls">
+              <input type="password" id="inputPassword" placeholder="Password">
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <div class="findpwd"><a href="javascript:;">Forgot Password</a></div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </div>
+        </form>
+        <div class="tosign">New to this web? <a href="./register.html">Create your account</a></div>
+      </div>
     </div>
     <!-- footer -->
     <div class="footer" id="footer"></div>
