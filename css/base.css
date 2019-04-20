@@ -44,8 +44,13 @@
   cursor: pointer;
 }
 
-.menu-items li:hover {
+.menu-items li a:hover {
   color: #f7b52c;
+}
+
+.menu-items li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .menu-items .first-item {
